@@ -1,7 +1,6 @@
-from rest_framework.generics import ListAPIView, RetrieveAPIView
+from rest_framework.generics import ListAPIView
 from .models import TreeNode
 from .serializers import TreeSerializer
-from mptt.models import MPTTModel, TreeForeignKey
 
 
 class TreeView(ListAPIView):
